@@ -63,7 +63,8 @@ db.sqlite3-journal
 
 # Flask stuff:
 instance/
-.webassets-cache
+.webassets-cache/
+.migrations/
 
 # Scrapy stuff:
 .scrapy
@@ -169,3 +170,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Logs
+logs/
+*.log
+
+# AWS & Credentials
+.aws/
+*.pem
+*.key
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Frontend (if applicable)
+# node_modules/
+# dist/
+# .next/
